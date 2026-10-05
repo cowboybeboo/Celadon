@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Build output (regenerate with ./build.sh)
+build/
+
+# Installer output (regenerate with ./make-installer.sh; share via GitHub Releases)
+dist/
+*.pkg
+
+# Soundfonts — bring your own, don't commit third-party carts
+*.sf2
+
+# Test binary
+tests/celadon_test
